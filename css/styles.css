@@ -576,5 +576,31 @@ header {
     font-size: 0.95rem;
     line-height: 1.6;
     margin-bottom: 0;
+
+
+   
     opacity: 0.9;
+}
+/* Center and restrict the size of the university logo */
+.institution-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.unisza-logo {
+    height: 100px;  /* Keeps it neat and proportional */
+    width: auto;
+    object-fit: contain;
+}
+
+/* Style for a profile picture if added to your body text */
+.about-profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it a clean circle */
+    object-fit: cover;
+    margin: 1rem auto;
+    display: block;
+    border: 3px solid var(--accent-color);
 }
