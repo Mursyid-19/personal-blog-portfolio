@@ -1,63 +1,101 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Developer Portfolio Blog</title>
+    <title>About Me | My Portfolio Blog</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Mursyid<span>.Dev</span></div>
+            <div class="logo-wrapper">
+                <div class="logo">MyPortfolio</div>
+                <img src="assets/profile.png" alt="Ahmad Mursyid" class="nav-avatar">
+            </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html" class="active">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+            <button id="theme-toggle">🌙</button>
         </nav>
     </header>
 
     <main class="container">
-        <section class="about-card">
-            <div class="profile-image-container">
-                <img src="assets/profile.png" alt="Ahmad Mursyid" class="profile-img">
-            </div>
+        <section class="about-section">
+            <div class="institution-logo-container">
+    <img src="assets/unisza-logo.png" alt="UniSZA Logo" class="unisza-logo">
+        </div>
 
             <h1>About Me</h1>
-            <p class="subtitle">Pursuing a Bachelor of Computer Science (Software Development) with Honors</p>
             
-            <div class="profile-summary">
-                <p>I am a highly motivated software development student specializing in computing systems architecture, cloud infrastructure tracking pipelines, and structural database query modeling. My primary core focus area is resolving computational data management complexities and maintaining high security policies within web applications.</p>
+            <div class="about-bio">
+                <p>My name is <strong>Ahmad Mursyid Bin Mohd Zuki</strong>, and I am currently a final year student pursuing my Bachelor of Computer Science (Software Development) with Honors at Universiti Sultan Zainal Abidin (UniSZA).</p>
+                <p>I specialize in designing backend application logic, maintaining clean relational database security layer architectures, and implementing cloud monitoring frameworks to ensure high application uptime availability.</p>
             </div>
 
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Core Engineering</h3>
-                    <ul>
-                        <li>Database Security (MySQL, MariaDB)</li>
-                        <li>Backend Scripts (PHP, Node.js)</li>
-                        <li>Structural System Logic (DFD, ERD Diagramming)</li>
-                    </ul>
+            <hr class="section-divider">
+
+            <h2>Academic Track</h2>
+            <div class="academic-card">
+                <div class="academic-meta">
+                    <strong>Degree:</strong> Bachelor of Computer Science (Software Development) with Honors
                 </div>
-                <div class="skill-category">
-                    <h3>Systems & Clouds</h3>
-                    <ul>
-                        <li>Prometheus Performance Exporters</li>
-                        <li>Grafana Analytic Panels</li>
-                        <li>Git Workflows & Version Tracking</li>
-                    </ul>
+                <div class="academic-meta">
+                    <strong>Institution:</strong> Faculty of Informatics and Computing, UniSZA
+                </div>
+                <div class="academic-meta">
+                    <strong>Focus Areas:</strong> Advanced Databases, System Specification Diagrams, Secure Logic Deployment
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category-card">
+                    <h3>Backend & Core Logic</h3>
+                    <div class="badge-container">
+                        <span class="skill-badge">PHP</span>
+                        <span class="skill-badge">MySQL / MariaDB</span>
+                        <span class="skill-badge">SQL Optimization</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <h3>Systems & Architecture</h3>
+                    <div class="badge-container">
+                        <span class="skill-badge">Data Flow Diagrams (DFD)</span>
+                        <span class="skill-badge">ERD Modeling</span>
+                        <span class="skill-badge">System Logic Flow</span>
+                    </div>
+                </div>
+                <div class="skill-category-card">
+                    <h3>DevOps & Cloud Systems</h3>
+                    <div class="badge-container">
+                        <span class="skill-badge">Prometheus Monitoring</span>
+                        <span class="skill-badge">Grafana Dashboards</span>
+                        <span class="skill-badge">Linux VMs</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="section-divider">
+
+            <h2>Featured Projects</h2>
+            <div class="about-project-list">
+                <div class="about-project-item">
+                    <h4>University Software Management System (USMS)</h4>
+                    <p>Designed and programmed an enterprise management system focusing on software logistics. Features secure relational tracking setups and authorization logic loops allowing administrators to systematically assign purchased software keys down to active structural users.</p>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Ahmad Mursyid. Built with HTML5, CSS3, & Vanilla JS.</p>
+        <p>&copy; 2026 Personal Blog Portfolio.</p>
     </footer>
-
     <script src="js/script.js"></script>
 </body>
 </html>
