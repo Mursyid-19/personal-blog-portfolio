@@ -1,35 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | My Portfolio Blog</title>
+    <title>About Me | Developer Portfolio Blog</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">MyPortfolio</div>
+            <div class="logo">Mursyid<span>.Dev</span></div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html" class="active">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-            <button id="theme-toggle">🌙</button>
+            <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
         </nav>
     </header>
 
     <main class="container">
-        <section class="about-section">
+        <section class="about-card">
+            <div class="profile-image-container">
+                <img src="assets/profile.png" alt="Ahmad Mursyid" class="profile-img">
+            </div>
+
             <h1>About Me</h1>
-            <p>Write a compelling introduction about yourself here, your background in computer science, and your passion for software engineering!</p>
+            <p class="subtitle">Pursuing a Bachelor of Computer Science (Software Development) with Honors</p>
+            
+            <div class="profile-summary">
+                <p>I am a highly motivated software development student specializing in computing systems architecture, cloud infrastructure tracking pipelines, and structural database query modeling. My primary core focus area is resolving computational data management complexities and maintaining high security policies within web applications.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Core Engineering</h3>
+                    <ul>
+                        <li>Database Security (MySQL, MariaDB)</li>
+                        <li>Backend Scripts (PHP, Node.js)</li>
+                        <li>Structural System Logic (DFD, ERD Diagramming)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Systems & Clouds</h3>
+                    <ul>
+                        <li>Prometheus Performance Exporters</li>
+                        <li>Grafana Analytic Panels</li>
+                        <li>Git Workflows & Version Tracking</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Personal Blog Portfolio.</p>
+        <p>&copy; 2026 Ahmad Mursyid. Built with HTML5, CSS3, & Vanilla JS.</p>
     </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
