@@ -604,3 +604,20 @@ header {
     display: block;
     border: 3px solid var(--accent-color);
 }
+/* ==========================================================================
+   12. Live Date & Time Widget UI
+   ========================================================================== */
+.datetime-badge {
+    display: inline-block;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--stroke-color);
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 20px;       /* Pill shape */
+    margin-bottom: 1.5rem;
+    font-family: monospace;     /* Keeps numbers from shifting tracking widths */
+    letter-spacing: 0.02em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+}
