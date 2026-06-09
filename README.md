@@ -2,7 +2,7 @@
 
 Welcome to the source code repository for my personal developer portfolio and blog website. This project is built as a fully responsive, clean, and modern web application to showcase my academic journey, system architecture designs, and core software development projects.
 
-## 📸 Live Preview
+##  Live Preview
 
 ![Portfolio Desktop Preview](assets/portfolio-preview.png)
 
@@ -12,8 +12,9 @@ Welcome to the source code repository for my personal developer portfolio and bl
 
 ## 🛠️ Tech Stack & Features
 
-- **Semantic HTML5:** Structured layout using clean, accessible sections (`<header>`, `<main>`, `<footer>`, `<article>`).
-- **Custom CSS3 Architecture:** Built entirely with native CSS variables (`--bg-color`, `--text-color`, `--accent-color`) for streamlined styling components and global transitions.
+- **Development Tools:** VS Code** with structured extensions.
+- **Version Control & Hosting:** Managed via **GitHub** for repository tracking, semantic commit histories, and code collaboration.
+- **Semantic HTML5:** Structured multi-page layout using clean, accessible components (`<header>`, `<main>`, `<footer>`, `<article>`).
 - **Dynamic Dark/Light Toggle:** JavaScript-powered theme switching backed by browser `localStorage` memory synchronization.
 - **Header Control Live Clock:** An efficient, interval-based JavaScript system clock updating numbers seamlessly every second directly beneath the theme switch.
 - **Automated Deployment:** Integrated pipeline utilizing **GitHub Pages** for instant background continuous deployment builds.
